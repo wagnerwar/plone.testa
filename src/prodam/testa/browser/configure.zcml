@@ -17,4 +17,11 @@
       directory="static"
       />
 
+    <browser:page
+          for="*"
+          name="testa-na-cabeca"
+          permission="zope2.Public"
+          class=".views.Testa"
+          />
+
 </configure>
